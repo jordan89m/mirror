@@ -1,0 +1,4 @@
+https://p64.arikawa-hi.me/$repo/aarch64,danctnix,phosh,pine64
+https://repo.lohl1kohl.de/$repo/aarch64,beryllium
+https://raw.githubusercontent.com/arch-beryllium/ui-packages/packages/$repo,plasma-mobile,lomiri
+http://mirror.archlinuxarm.org/aarch64/$repo,alarm,aur,community,core,extra
