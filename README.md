@@ -6,6 +6,8 @@ Prerequisites: aria2
 
 Simply run get.sh and aria2 will handle bulk downloads efficiently.
 
+Currently this version does not handle checksums. Two reasons: A) Still learning stuff. B) My day-job's industry has been rocked by the pandemic and my free time is currently extremely limited.
+
 Tested on a 1000Mbps connection (roughly 140MB/s download capacity) and downloaded all required files in about 5-6 minutes.
 
 Original description below.
