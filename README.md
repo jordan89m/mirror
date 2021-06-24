@@ -6,7 +6,7 @@ Prerequisites: aria2
 
 Simply run get.sh and aria2 will handle bulk downloads efficiently.
 
-Tested on a 1000Mbps connection (roughly 140MB/s download capacity) and downloaded all required filed in about 5-6 minutes.
+Tested on a 1000Mbps connection (roughly 140MB/s download capacity) and downloaded all required files in about 5-6 minutes.
 
 Original description below.
 
