@@ -19,6 +19,9 @@ while read -r config; do
         cp "mirror/$repo/aarch64/$repo.db" "$tmpdir/$repo.db"
     mkdir -p "$tmpdir/$repo"
     tar -xf "$tmpdir/$repo.db" -C "$tmpdir/$repo"
+    if [ -f "mirror/$repo/aarch64/repo.txt" ]; then
+      rm "mirror/$repo/aarch64/repo.txt"
+    fi
     filenames=()
     for pkgfile in "$tmpdir/$repo"/*/desc; do
       readarray -t lines <"$pkgfile"
