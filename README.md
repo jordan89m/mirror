@@ -4,7 +4,7 @@ A spin on @jld3103's update.sh is the focus of this repo.
 
 Prerequisites: aria2
 
-Simply run get.sh and aria2 will handle bulk downloads efficiently.
+Simply run get.sh and aria2 will handle bulk downloads efficiently. Should any URLs return an error at the end of the download, re-run the script collect any absent files.
 
 Currently this version does not handle checksums. Two reasons: A) Still learning stuff. B) My day-job's industry has been rocked by the pandemic and my free time is currently extremely limited.
 
