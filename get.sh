@@ -32,6 +32,6 @@ while read -r config; do
         fi
       done
      done
-     aria2c -s 16 -x 16 -j 16 -i "mirror/$repo/aarch64/repo.txt" -d "mirror/$repo/aarch64/"
+     aria2c -s 16 -x 16 -j 16 -c -i "mirror/$repo/aarch64/repo.txt" -d "mirror/$repo/aarch64/"
   done
 done <repos
