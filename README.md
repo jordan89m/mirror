@@ -1,6 +1,6 @@
 # mirror
 
-A spin on @jld3103's update.sh is the focus of this repo. 
+An Artix ARM fork of a script by @jld3103.
 
 Prerequisites: aria2
 
